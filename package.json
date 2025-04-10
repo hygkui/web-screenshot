@@ -1,0 +1,16 @@
+{
+  "name": "web-screenshot",
+  "version": "1.0.0",
+  "description": "Script to take screenshots of specific elements on a webpage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.42.1",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "pdfkit": "^0.14.0",
+    "image-size": "^1.1.1"
+  }
+}
